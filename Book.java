@@ -1,10 +1,4 @@
-//*********************************************************
 
-/*
- * In this file, do the following things:
- * 1) Modify the class so that it inherits from Product
- * 2) Create a constructor that takes in a book title and book cost
- */
  
 
 public class Book extends Product {
@@ -14,16 +8,7 @@ public class Book extends Product {
 
 }
 
-//*********************************************************
 
-/*
- * In this file, do the following things:
- * 1) Modify the class so that all ConsultingService objects must use the Sellable interface
- * 2) Create a constructor that takes in a consulting service name, consulting service cost per hour,
- *    and a consulting service number of hours
- * 3) Override the getCost() method and return the result of multiplying the consulting service cost per hour by
- *    the consulting service number of hours
- */
  
 
 public class ConsultingService implements Sellable {
@@ -52,14 +37,7 @@ public class ConsultingService implements Sellable {
            + "Number of Hours: " + getNumHours() + " hours";     
    }
 }
-//*********************************************************
 
-/*
- * In this file, do the following things:
- * 1) Modify the class so that it inherits from Product
- * 2) Create a constructor that takes in a DVD title, DVD cost, and DVD genre
- * 3) Override the getCost() method by adding the DVD handling fee to the cost calculated for a Product
- */
  
 
 public class DVD extends Product {
@@ -81,14 +59,7 @@ public class DVD extends Product {
    }   
 }
 
-//*********************************************************
 
-/*
- * In this file, do the following things:
- * 1) Modify the class so that a Product object cannot be created. Instead, only subclass objects of
- *    Product can be created
- * 2) Modify the class so that all Product objects must use the Sellable interface
- */
  
 
 public abstract class Product implements Sellable {
@@ -110,11 +81,6 @@ public abstract class Product implements Sellable {
       return "Title: " + getTitle();
    }  
 }
-//*********************************************************
-
-/*
- * In this file, complete tasks as identified below, only inside of the commented areas
- */
 
 import javax.swing.JOptionPane;
 public class Purchase {
