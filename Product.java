@@ -1,12 +1,4 @@
 
-//*********************************************************
-
-/*
- * In this file, do the following things:
- * 1) Modify the class so that a Product object cannot be created. Instead, only subclass objects of
- *    Product can be created
- * 2) Modify the class so that all Product objects must use the Sellable interface
- */
  
 
 public abstract class Product implements Sellable {
