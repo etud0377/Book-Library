@@ -1,8 +1,4 @@
-//*********************************************************
 
-/*
- * In this file, complete tasks as identified below, only inside of the commented areas
- */
 
 import javax.swing.JOptionPane;
 public class Purchase {
